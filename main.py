@@ -25,7 +25,6 @@ def main():
         1: [1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1], # Conjunto de bits da tarefa
         2: [1,1,1,0,1,0,0,1,0,1,0,0,0,0,1,0], #Conjunto de bits da tarefa
         3: [1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0],
-        4: [1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0]
     }
 
     sinal_codificado, rotulos_plot = codificador_hdb3(conjunto_bits[1])
